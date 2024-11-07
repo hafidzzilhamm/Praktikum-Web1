@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(#9a08dd 0%, #d4549d 40%, #5711a7 100%);
+}
+
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav div img {
+    width: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5711a7;
+    font-weight: 700;
+    padding: 6px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid #d4549c00;
+}
+
+nav ul li a:hover {
+    color: #d4549d;
+    border-bottom: 1px solid #d4549d;
+}
+
+table {
+    width: 100000;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.profileimage {
+    width:200px;
+}
+
+.profile h2 {
+    color: white;
+}
+.profile h4 {
+    color: white;
+    transform: translateY(-11px);
+}
+
+.biodata {
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+}
+
+.sertifikat {
+    margin-top: 100px;
+}
+.footer {
+    margin-top: -100px;
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+
+.contact a {
+    color: black;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.watermark {
+    padding-top: 20px;
+}
